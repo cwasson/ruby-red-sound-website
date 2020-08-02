@@ -1,0 +1,29 @@
+/* IE Specific */
+
+.ie9 #bgVid {
+	position:absolute;
+	top:120px;
+	left:0;
+	right:0;
+}
+
+.ie9 .artwork, .ie9 .live {
+	position:absolute;
+	top:100px;
+	left:0;
+	right:0;
+	width:50%;
+	margin:0 auto;
+}
+
+.ie8lt body {
+	z-index: 0;
+}
+
+.ie8lt .remove {
+	display:none;
+}
+
+.ie8lt .include {
+	display:block;
+}

@@ -1,0 +1,112 @@
+
+/* MAILCHIMP */
+
+#signupform {
+	color: red;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 13px;
+	text-align: center;
+	letter-spacing: 2px;
+	z-index: 4;	
+    float: right;
+    font-style: italic !important;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#signupform input {
+	display: inline-block;
+	outline: none;
+}
+
+#signupform .email {
+	background: transparent;
+	border: 1px solid red;
+	width: 220px;
+	padding: 5px 30px 5px 10px;
+	font-size: 16px;
+	color: red;
+	line-height: 14px;
+    text-align: left;
+	vertical-align: bottom;
+	font-family: 'times new roman', times, serif;	
+	margin: 0px;
+    font-style: italic;
+}
+
+#signupform .button {
+background: transparent;
+    font-family: 'times new roman', times, serif;
+    color: red;
+    border: 0px;
+    font-size: 25px;
+    line-height: 25px;
+    vertical-align: bottom;
+    transition: 0.3s;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    cursor: pointer;
+}
+
+
+#signupform .button:hover {
+    background: red;
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: red;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: fff;
+  font-style: italic;    
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: fff;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: fff;
+  font-style: italic;    
+}
+
+
+
+@media (max-width: 800px) {
+
+
+#signupform {
+	color: red;
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: normal;
+	z-index: 9;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+#signupform .email {
+    width: 85%;
+    border-radius: 0px;
+    padding: 10px 30px 10px 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    box-sizing: border-box 
+}
+
+#signupform .button {
+    opacity: 1;    
+    top: 6px;  
+    display: inline-block;
+}
+
+}
