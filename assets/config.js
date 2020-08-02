@@ -1,0 +1,1 @@
+let target = document.GetElementById('contents');
